@@ -1,0 +1,47 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+section .section-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    
+}
+.section-item--info {
+    padding: 25px 15px 20px;
+    box-sizing: border-box;
+    
+    border: 1px solid #dfdfdf;
+    border-top: none;
+    border-radius: 4px;
+}
+
+.section-item--info h3  {
+    color: black;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.section-item--info p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+}
+
+.section-item--info button {
+    background-color: #007bff;
+    border: none;
+    padding: 14px 19px 9px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
+}
+
+
